@@ -102,7 +102,7 @@ public class login {
 	    driver.manage().window().setSize(new Dimension(1004, 724));
 	    
 	      
-	    driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys("standard_usller"); 
+	    driver.findElement(By.xpath("//*[@id=\"user-name\"]")).sendKeys("standard_user"); 
 	    driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("secret_sauce");
 	    
 	    
