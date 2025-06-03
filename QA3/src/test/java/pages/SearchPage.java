@@ -17,12 +17,9 @@ public class SearchPage {
     @FindBy(xpath = "//div[@id='Search']//input[@name='keyword']")
     private WebElement mainSearchInputBox;
 
-    // ה-WebElement של הטופס עצמו.
-    // ה-action שלו הוא /actions/Catalog.action
     @FindBy(xpath = "//div[@id='Search']//form")
     private WebElement searchForm;
 
-    // עדיין נשאיר את כפתור החיפוש, למקרה שנצטרך אותו או שנמצא דרך אחרת
     @FindBy(name = "searchProducts")
     private WebElement searchSubmitButton;
 
@@ -44,14 +41,13 @@ public class SearchPage {
         }
     }
 
-    public void clickSearch() { // שם המתודה נשאר, אך הלוגיקה משתנה
+    public void clickSearch() {  
         try {
-            // במקום ללחוץ על הכפתור, נשלח את הטופס
-            wait.until(ExpectedConditions.visibilityOf(searchForm)); // ודא שהטופס גלוי
+            
+            wait.until(ExpectedConditions.visibilityOf(searchForm)); 
             searchForm.submit();
             System.out.println("Search form submitted.");
 
-            // המתנה קצרה לדיבאג, החלף בהמתנה מפורשת לתוצאות
             Thread.sleep(500);
 
         } catch (Exception e) {
