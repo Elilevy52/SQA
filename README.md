@@ -78,24 +78,4 @@ It covers functional UI test automation for key user flows such as:
 
 ---
 
-## 🙌 Acknowledgments
 
-This test suite was created as part of a QA Automation training project, using the open-source JPetStore demo site for educational purposes.
-
----
-
-## 📃 License
-
-This project is licensed under the MIT License.
-
-```
-
----
-
-Let me know if you want:
-- the README saved into a file (`README.md`)
-- help writing the `LICENSE` file (MIT)
-- tips on linking this to your LinkedIn or portfolio
-
-Great job putting this together!
-```
