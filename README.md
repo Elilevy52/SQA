@@ -10,7 +10,7 @@ It covers functional UI test automation for key user flows such as:
 
 ---
 
-##🚀 Technologies Used
+## 🚀 Technologies Used
 
 - **Java 11+**
 - **Selenium WebDriver**
