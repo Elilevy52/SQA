@@ -1,0 +1,44 @@
+May 26, 2025 11:17:31 PM test.CartTest setUp
+INFO: 🚀 Launching Chrome and setting up...
+May 26, 2025 11:17:34 PM test.CartTest setUp
+INFO: ✅ Setup complete.
+May 26, 2025 11:17:34 PM test.CartTest testRemoveOneItemWhenMultipleInCart
+INFO: 🔄 Running test: testRemoveOneItemWhenMultipleInCart
+May 26, 2025 11:17:35 PM test.CartTest addProductToCartFlow
+FINE: Opening product: AV-CB-01
+May 26, 2025 11:17:36 PM test.CartTest addProductToCartFlow
+FINE: Clicking Add to Cart for: Amazon Parrot
+May 26, 2025 11:17:37 PM test.CartTest addProductToCartFlow
+FINE: Checking if product is in cart: Amazon Parrot
+May 26, 2025 11:17:37 PM test.CartTest addProductToCartFlow
+FINE: In cart? true
+May 26, 2025 11:17:37 PM test.CartTest addProductToCartFlow
+FINE: Opening product: AV-SB-02
+May 26, 2025 11:17:37 PM test.CartTest addProductToCartFlow
+FINE: Clicking Add to Cart for: Adult Male Finch
+May 26, 2025 11:17:38 PM test.CartTest addProductToCartFlow
+FINE: Checking if product is in cart: Adult Male Finch
+May 26, 2025 11:17:38 PM test.CartTest addProductToCartFlow
+FINE: In cart? true
+May 26, 2025 11:17:58 PM test.CartTest testRemoveLastItemMakesCartEmpty
+INFO: 🔄 Running test: testRemoveLastItemMakesCartEmpty
+May 26, 2025 11:17:58 PM test.CartTest addProductToCartFlow
+FINE: Opening product: FI-FW-01
+May 26, 2025 11:17:59 PM test.CartTest addProductToCartFlow
+FINE: Clicking Add to Cart for: Spotted Koi
+May 26, 2025 11:17:59 PM test.CartTest addProductToCartFlow
+FINE: Checking if product is in cart: Spotted Koi
+May 26, 2025 11:17:59 PM test.CartTest addProductToCartFlow
+FINE: In cart? true
+May 26, 2025 11:18:17 PM test.CartTest testAddToCartAndVerifyQuantity
+INFO: 🔄 Running test: testAddToCartAndVerifyQuantity
+May 26, 2025 11:18:18 PM test.CartTest addProductToCartFlow
+FINE: Opening product: FI-SW-01
+May 26, 2025 11:18:18 PM test.CartTest addProductToCartFlow
+FINE: Clicking Add to Cart for: Large Angelfish
+May 26, 2025 11:18:19 PM test.CartTest addProductToCartFlow
+FINE: Checking if product is in cart: Large Angelfish
+May 26, 2025 11:18:19 PM test.CartTest addProductToCartFlow
+FINE: In cart? true
+May 26, 2025 11:18:22 PM test.CartTest tearDown
+INFO: 🧹 Closing browser...
