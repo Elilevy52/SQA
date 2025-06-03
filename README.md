@@ -1,4 +1,3 @@
-````markdown
 # 🧪 Selenium-TestSuite-JPetStore
 
 This project is a **Selenium-based automated test suite** for the [JPetStore demo website](https://jpetstore.aspectran.com/), built using the **Page Object Model (POM)** design pattern.
