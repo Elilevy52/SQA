@@ -1,3 +1,10 @@
+Perfect! Here's your finalized and polished `README.md` for your GitHub repository **`Selenium-TestSuite-JPetStore`**, with your preferences in mind (no screenshots, clean professional tone, no CI/CD or badges for now):
+
+---
+
+### 📄 Final `README.md`
+
+````markdown
 # 🧪 Selenium-TestSuite-JPetStore
 
 This project is a **Selenium-based automated test suite** for the [JPetStore demo website](https://jpetstore.aspectran.com/), built using the **Page Object Model (POM)** design pattern.
@@ -17,7 +24,7 @@ It covers functional UI test automation for key user flows such as:
 - **JUnit 4**
 - **Page Factory (POM structure)**
 - **Loggers for test reporting**
-- **Maven** (optional, if applicable)
+- **Maven** (optional)
 
 ---
 
@@ -29,3 +36,66 @@ It covers functional UI test automation for key user flows such as:
 ├── utils/           # Logging utilities and reusable helpers
 ├── resources/       # Test data (optional)
 └── README.md        # This file
+````
+
+---
+
+## ✅ Features Covered
+
+| Feature           | Test Class          |
+| ----------------- | ------------------- |
+| User Registration | `RegisterTest.java` |
+| Login / Logout    | `SignInTest.java`   |
+| Product Search    | `SearchTest.java`   |
+| Cart Operations   | `CartTest.java`     |
+| Checkout Process  | `CheckoutTest.java` |
+
+---
+
+## 🔧 Setup Instructions
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Selenium-TestSuite-JPetStore.git
+   cd Selenium-TestSuite-JPetStore
+   ```
+
+2. **Open the project in your IDE**
+   You can use IntelliJ IDEA, Eclipse, or any Java-compatible IDE.
+
+3. **Install dependencies:**
+   If you're using Maven, make sure the `pom.xml` includes:
+
+   * `selenium-java`
+   * `junit`
+   * Optional: logging libraries (e.g., `log4j`, `java.util.logging`)
+
+   If you're not using Maven, download JARs and add them manually to the project.
+
+4. **Run the tests:**
+   You can run tests individually by executing the relevant `*Test.java` file in the `test/` directory.
+
+---
+
+## 🙌 Acknowledgments
+
+This test suite was created as part of a QA Automation training project, using the open-source JPetStore demo site for educational purposes.
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License.
+
+```
+
+---
+
+Let me know if you want:
+- the README saved into a file (`README.md`)
+- help writing the `LICENSE` file (MIT)
+- tips on linking this to your LinkedIn or portfolio
+
+Great job putting this together!
+```
