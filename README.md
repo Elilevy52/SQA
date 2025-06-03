@@ -1,11 +1,5 @@
-Perfect! Here's your finalized and polished `README.md` for your GitHub repository **`Selenium-TestSuite-JPetStore`**, with your preferences in mind (no screenshots, clean professional tone, no CI/CD or badges for now):
-
----
-
-### 📄 Final `README.md`
-
 ````markdown
-🧪 Selenium-TestSuite-JPetStore
+# 🧪 Selenium-TestSuite-JPetStore
 
 This project is a **Selenium-based automated test suite** for the [JPetStore demo website](https://jpetstore.aspectran.com/), built using the **Page Object Model (POM)** design pattern.
 
@@ -17,7 +11,7 @@ It covers functional UI test automation for key user flows such as:
 
 ---
 
-🚀 Technologies Used
+##🚀 Technologies Used
 
 - **Java 11+**
 - **Selenium WebDriver**
@@ -28,7 +22,7 @@ It covers functional UI test automation for key user flows such as:
 
 ---
 
-📁 Project Structure
+### 📁 Project Structure
 
 ```plaintext
 ├── pages/           # Page Object classes (HomePage, CartPage, etc.)
